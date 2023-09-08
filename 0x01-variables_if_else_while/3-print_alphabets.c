@@ -10,16 +10,11 @@ int main(void)
 {
 	char c;
 
-	c = 'A';
-	if (c >= 'a' && c <= 'z')
+	for (c = 'a'; c <='z'; c++)	{
+	putchar (c);	}
+	for (c = 'A'; c <= 'Z'; c++)
 	{
 	putchar (c);
-	c++;
-	}
-	else if (c >= 'A' && c <= 'Z')
-	{
-	putchar (c);
-	c++;
 	}
 	putchar ('\n');
 	return (0);

@@ -11,6 +11,8 @@ int print_last_digit(int z)
 	int res;
 
 	res = z % 10;
-
+	if (z < 0)
+	res = -res;
+	_putchar (res + '0');
 	return (res);
 }

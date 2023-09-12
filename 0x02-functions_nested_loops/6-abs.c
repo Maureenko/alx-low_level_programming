@@ -2,6 +2,7 @@
 
 /**
  * _abs - compute absolute value of a number
+ * @j: number to assess
  *
  * Return: always 0
  */

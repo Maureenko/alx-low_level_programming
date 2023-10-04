@@ -4,7 +4,7 @@
 
 /**
  * free_grid - free previously allocated memory
- * grid: address of an array
+ * @grid: address of an array
  * @height: no of rows
  */
 void free_grid(int **grid, int height)

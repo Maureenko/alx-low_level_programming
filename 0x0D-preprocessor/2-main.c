@@ -2,6 +2,8 @@
 
 /**
  * main - print file program was compiled from
+ *
+ * Return: 0
  */
 int main(void)
 {

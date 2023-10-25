@@ -13,7 +13,13 @@ int _sqrt_recursion(int n)
 		return (-1);
 	return (sqrt_recursive(n, 1));
 }
-
+/**
+ * sqrt_recursive - helper function to increment guess
+ * @n: number to be square-rooted
+ * @a: possible squareroot
+ *
+ * Return: squareroot or -1
+ */
 int sqrt_recursive(int n, int a)
 {
 	if (a * a == n)

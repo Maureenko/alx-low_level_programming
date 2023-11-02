@@ -12,7 +12,7 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *p;
-	int i;
+	int i = 0;
 	int x = 0;
 
 	if (nmemb == 0 || size == 0)

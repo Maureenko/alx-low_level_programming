@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+
 /**
  * calloc - allocate memory for array
  * @nmemb: array elements
@@ -19,6 +19,5 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (p == NULL)
 		return (NULL);
 	else
-		memset(p, 0, nmemb * size);
-	return (p);
+		return (p);
 }
